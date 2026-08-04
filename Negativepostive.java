@@ -2,7 +2,6 @@ package JavaQuestions;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthLookAndFeel;
 
 public class Negativepostive {
     public static void main(String[] args) {
