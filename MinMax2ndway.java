@@ -9,21 +9,21 @@ public class MinMax2ndway {
         // int n = sc.nextInt();
         int[] arr = {1,2,3,4,5};
 
-        int max = arr[0];
-        int min = arr[0];
+        int maxval = arr[0];
+        int minval = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
 
-            if (arr[i] > max) {
-                max = arr[i];
+            if (arr[i] > maxval) {
+                maxval = arr[i];
             }
 
-            if (arr[i] < min) {
-                min = arr[i];
+            if (arr[i] < minval) {
+                minval = arr[i];
             }
         }
 
-        System.out.println("Maximum = " + max);
-        System.out.println("Minimum = " + min);
+        System.out.println("Maximum = " + maxval);
+        System.out.println("Minimum = " + minval);
     }
 }
