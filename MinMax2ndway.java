@@ -1,3 +1,4 @@
+package JavaQuestions;
 import java.util.Scanner;
 
 public class MinMax2ndway {
