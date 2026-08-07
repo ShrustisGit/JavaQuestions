@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CountNumOfDigit {
     public static void main(String[] args) {
+        System.out.println("Counting number of Digits");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int count=0;
