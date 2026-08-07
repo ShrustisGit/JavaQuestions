@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Dividebyboth {
     public static void main(String[] args) {
+        System.out.println("Divide by");
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         if(num % 5==0 && num % 11 == 0) {
