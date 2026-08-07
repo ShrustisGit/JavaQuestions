@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Prime {
     public static void main(String[] args) {
+        System.out.println("Prime or Not");
 
         Scanner sc = new Scanner(System.in);
 
