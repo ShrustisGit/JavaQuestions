@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class EvenOdd {
     public static void main(String[] args) {
+        System.out.println("Even Odd");
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         if(num % 2 == 0){
