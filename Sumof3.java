@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Sumof3 {
     public static void main(String[] args) {
+        System.out.println("Sum");
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter 3 numbers");
         int a=sc.nextInt();
