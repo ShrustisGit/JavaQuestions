@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
+        System.out.println("Fibonacci");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int a=0;
