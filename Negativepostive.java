@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Negativepostive {
     public static void main(String[] args) {
+        System.out.println("Negative or positive");
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         if(num == 0){
