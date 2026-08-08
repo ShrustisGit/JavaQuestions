@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class MinMax2ndway {
     public static void main(String[] args) {
-
+        System.out.println("Mix or Max");
         // Scanner sc = new Scanner(System.in);
 
         // int n = sc.nextInt();
