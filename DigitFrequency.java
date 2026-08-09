@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class DigitFrequency {
     public static void main(String[] args) {
-
+        System.out.println("Digit Frequency");
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
