@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class CheckStrongNumber {
     public static void main(String[] args) {
-
+        System.out.println("if factorial is 145 and sum of factorail is 145 is strong number");
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
