@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CountDigitevenodd {
     public static void main(String[] args) {
+        System.out.println("Count digit even or odd");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int even=0;
