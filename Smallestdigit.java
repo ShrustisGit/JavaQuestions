@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Smallestdigit {
     public static void main(String[] args) {
+        System.out.println("Smallest digit");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int max=9;
