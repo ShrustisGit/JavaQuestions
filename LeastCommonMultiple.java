@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class LeastCommonMultiple {
     public static void main(String[] args) {
-
+        System.out.println("Least common multiple");
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
