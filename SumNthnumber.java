@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SumNthnumber {
     public static void main(String[] args) {
+        System.out.println("Sum Nth number");
     Scanner sc = new Scanner(System.in);
     int n=sc.nextInt();
     int sum=0;
