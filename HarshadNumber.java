@@ -6,17 +6,11 @@ public class HarshadNumber {
     public static void main(String[] args) {
         // Input:
         // 18
-
-        // Sum of digits:
-
+        // Sum of digit
         // 1 + 8 = 9
-
         // Since:
-
         // 18 % 9 = 0
-
         // Output:
-
         // Harshad Number
 
         Scanner sc = new Scanner(System.in);
