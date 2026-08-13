@@ -12,7 +12,7 @@ public class HarshadNumber {
         // 18 % 9 = 0
         // Output:
         // Harshad Number
-
+        System.out.println("Harshad Number");
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
