@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Sumofevendigit {
     public static void main(String[] args) {
+        System.out.println("Sum of even digit");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int sum=0;
