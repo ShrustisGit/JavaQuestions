@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SumProperDivisors {
     public static void main(String[] args) {
+        System.out.println("Sum Proper Divisors");
 
         Scanner sc = new Scanner(System.in);
 
