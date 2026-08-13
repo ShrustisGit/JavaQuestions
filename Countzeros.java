@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Countzeros {
     public static void main(String[] args) {
+        System.out.println("Countzero");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int count=0;
