@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PerfectNumber {
     public static void main(String[] args) {
-
+        System.out.println("Perfect Number");
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
