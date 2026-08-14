@@ -1,36 +1,23 @@
 package JavaQuestions;
-import java.util.*;
 
+import java.util.Scanner;
 
 public class Prime {
     public static void main(String[] args) {
-        System.out.println("Prime or Not");
-
-        Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();
-
-        if (n <= 1) {
-            System.out.println("Not Prime");
-            return;
-        }
-
-        boolean isPrime = true;
-
-        for (int i = 2; i * i <= n; i++) {
-            if (n % i == 0) {
-                isPrime = false;
-                break;
+        Scanner sc =new Scanner(System.in);
+        int n =sc.nextInt();
+        
+        int count=0;
+        for(int i= 1;i<=n;i++){
+            if(n % i==0){
+                count++;
             }
         }
-
-        if (isPrime) {
+        if(count == 2){
             System.out.println("Prime");
-        } else {
+        }
+        else{
             System.out.println("Not Prime");
         }
-
-        sc.close();
     }
 }
-
