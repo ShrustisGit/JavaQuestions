@@ -8,7 +8,7 @@ public class ReverseArr {
 
         int start = 0;
         int end = arr.length - 1;
-
+        for (int i = 0; i < arr.length; i++) {
         while (start < end) {
 
             int temp = arr[start];
@@ -19,7 +19,6 @@ public class ReverseArr {
             end--;
         }
 
-        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
     }
