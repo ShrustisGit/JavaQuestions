@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Countposnev {
     public static void main(String[] args) {
+       System.out.println("Count Positive negative number");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int[] arr=new int[n];
