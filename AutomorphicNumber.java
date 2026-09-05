@@ -18,6 +18,8 @@ public class AutomorphicNumber {
             divisor = divisor * 10;
             temp = temp / 10;
         }
+        System.out.println(divisor);
+        System.out.println(temp);
 
         if (square % divisor == n) {
             System.out.println("Automorphic Number");
