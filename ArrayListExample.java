@@ -9,6 +9,11 @@ public class ArrayListExample {
       list.add(10);
       list.add(20);
       list.add(30);
+      list.remove(0);
+      list.set(0, 100);
       System.out.println(list);
+      System.out.println(list.contains(40));
+      
+      
     }
 }
