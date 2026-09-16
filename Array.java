@@ -17,5 +17,8 @@ public class Array {
         //     System.out.println(num);
         // }
 
+        arr[1]=100;
+        System.out.println(Arrays.toString(arr));
+
     }
 }
