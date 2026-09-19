@@ -22,26 +22,14 @@ public class PalindromeWithoutReverse {
         boolean palindrome = true;
 
         while (n > 0) {
-
-            // Get first digit
             int first = n / divisor;
-
-            // Get last digit
             int last = n % 10;
-
-            // Compare first and last digit
             if (first != last) {
                 palindrome = false;
                 break;
             }
-
-            // Remove first digit
             n = n % divisor;
-
-            // Remove last digit
             n = n / 10;
-
-            // Move divisor two places left
             divisor = divisor / 100;
         }
 
