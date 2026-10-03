@@ -1,4 +1,4 @@
-package JavaQuestions;
+package JavaQuestions.Array;
 import java.util.Scanner;
 
 public class FrequencyArr {

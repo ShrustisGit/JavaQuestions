@@ -1,4 +1,4 @@
-package JavaQuestions;
+package JavaQuestions.Array;
 
 import java.sql.Array;
 import java.util.ArrayList;

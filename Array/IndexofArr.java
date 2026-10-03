@@ -1,4 +1,4 @@
-package JavaQuestions;
+package JavaQuestions.Array;
 
 public class IndexofArr {
     public static void main(String[] args) {
