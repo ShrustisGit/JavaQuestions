@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Array {
     public static void main(String[] args) {
+        System.out.println("First Array");
         Scanner sc=new Scanner(System.in);
         int [] arr=new int[5];
         // System.out.println(arr[0]);
