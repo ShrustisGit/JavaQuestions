@@ -8,35 +8,31 @@ public class IdentityMatrix {
         Scanner sc = new Scanner(System.in);
 
         int rows = sc.nextInt();
-        int col = sc.nextInt();
+        int cols = sc.nextInt();
 
-        int[][] array = new int[rows][col];
+        int[][] array = new int[rows][cols];
 
         // Input
         for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < col; j++) {
+            for (int j = 0; j < cols; j++) {
                 array[i][j] = sc.nextInt();
             }
         }
-
-        boolean identity = true;
-
-        // Check identity matrix
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < col; j++) {
-
-                if (i == j) {
-                    if (array[i][j] != 1) {
-                        identity = false;
+        boolean identity=true;
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<cols;j++){
+                if(i == j){
+                    if(array[i][j] !=1){
+                        identity=false;
                     }
-                } else {
-                    if (array[i][j] != 0) {
-                        identity = false;
+                }
+                else{
+                    if(array[i][j] !=0){
+                        identity=false;
                     }
                 }
             }
         }
-
         if (identity) {
             System.out.println("Identity Matrix");
         } else {
