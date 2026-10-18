@@ -10,19 +10,19 @@ public class LargestDiffinArray {
         for(int i =0;i<n;i++){
             array[i]=sc.nextInt();
         }
-        int smallest=9;
-        int largest=-1;
-        for(int i=0;i<n;i++){
-            if(array[i]<smallest){
-                smallest=array[i];
+        int small=9;
+        int large=-1;
+        for(int i =0;i<n;i++){
+            if(array[i]<small){
+                small = array[i];
             }
-            else if(array[i]>largest){
-                largest=array[i];
+            else if(array[i]>large){
+                large=array[i];
             }
         }
-        System.out.println("Smallest:"+ " "+smallest);
-        System.out.println("Largest:"+" "+largest );
-        int diff=largest-smallest;
-        System.out.println("Difference is :"+" " +diff);
+        System.out.println("Smallest value is : "+small );
+        System.out.println("Largest value is : "+large);
+        int diff=large-small;
+        System.out.println("Difference is : "+diff);
     }
 }
