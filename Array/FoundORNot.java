@@ -11,20 +11,27 @@ public class FoundORNot {
     for(int i=0;i<rows;i++){
         for(int j=0;j<col;j++){
             array[i][j]=sc.nextInt();
-        }}
+        }
+    }
+    System.out.print("Enter Targeted Element : ");
     int target=sc.nextInt();
     boolean found=false;
     for(int i=0;i<rows;i++){
         for(int j=0;j<col;j++){
-            if(array[i][j] == target){
+            if(array[i][j]==target){
                 found=true;
+                break;
+            }
+            else{
+                found=false;
             }
         }
     }
-    if (found) {
-        System.out.println("Element Found");
+    if(!found){
+        System.out.println("Element not fount");
     }
     else{
-        System.out.println("Element Not found");
+        System.out.println("Elemnt Found");
     }
-} }
+    }
+} 
