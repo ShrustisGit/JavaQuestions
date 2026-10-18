@@ -18,7 +18,7 @@ public class boundaryelements {
                     System.out.print(array[i][j] + " ");
                 }
                 else{
-                    System.out.print("  ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
