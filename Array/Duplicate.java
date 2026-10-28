@@ -7,15 +7,15 @@ public class Duplicate {
     Scanner sc=new Scanner(System.in);
         System.out.print("Enter Size Of Array:");
         int n=sc.nextInt();
-        int[] arr=new int[n];
-        for(int i =0;i<n;i++){
-            arr[i]=sc.nextInt();
+        int[] array=new int[n];
+        for(int i=0;i<n;i++){
+            array[i]=sc.nextInt();
         }
-        for(int i =0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                if(arr[i]==arr[j]){
-                    System.out.println(arr[i]);
-                    break;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+                if(array[i] == array[j]){
+                System.out.print(array[i]+" ");
+                break;
                 }
             }
         }
