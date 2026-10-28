@@ -1,25 +1,51 @@
 package JavaQuestions.Array;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Array {
+public class boundaryelements {
     public static void main(String[] args) {
-        System.out.println("First Array");
         Scanner sc=new Scanner(System.in);
-        int [] arr=new int[5];
-        // System.out.println(arr[0]);
-
-        for(int i =0 ; i< arr.length;i++){
-            arr[i]=sc.nextInt();
+        int rows=sc.nextInt();
+        int col=sc.nextInt();
+        int[][] array=new int[rows][col];
+        for(int i=0;i<rows;i++){
+            for(int j =0;j<col;j++){
+                array[i][j]=sc.nextInt();
+            }}
+        for(int i=0;i<rows;i++){
+            for(int j =0;j<col;j++){
+                if(i ==0 || i == rows-1 || j == 0 || j== col-1 ){
+                    System.out.print(array[i][j] + " ");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
         }
-        System.out.println(Arrays.toString(arr));
-        // for(int num :arr){
-        //     System.out.println(num);
-        // }
-
-        arr[1]=100;
-        System.out.println(Arrays.toString(arr));
-
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
