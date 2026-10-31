@@ -22,9 +22,8 @@ public class SecondaryDiagonalSum {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-
-                if (i + j == rows - 1) {
-                    sum = sum + array[i][j];
+                if(i == j){
+                    sum=sum+array[i][j];
                 }
             }
         }
