@@ -16,22 +16,19 @@ public class MaxSum {
                 array[i][j]=sc.nextInt();
             }
         }
-
         for(int j=0;j<cols;j++){
             int sum=0;
             for(int i=0;i<rows;i++){
                 sum=sum+array[i][j];
             }
-            System.out.println("Row"+" "+(j+1)+"-"+sum);
+            System.out.println("Col "+j+1 +" - "+sum);
             if(sum>max){
                 max=sum;
                 maxcol=j+1;
-
             }
-
         }
-        System.out.println("MAx sum of col"+max);
-        System.out.println("col number"+maxcol);
+        System.out.println("Max Of col - "+max);
+        System.out.println("col number - "+maxcol);
       
 
     }
