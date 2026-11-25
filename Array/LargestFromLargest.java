@@ -2,6 +2,8 @@ package JavaQuestions.Array;
 
 import java.util.Scanner;
 
+import Leetcode.arrayevennumber;
+
 public class LargestFromLargest {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -14,16 +16,16 @@ public class LargestFromLargest {
                 array[i][j]=sc.nextInt();
             }
         }
-        for(int j=0;j<col;j++){
+        for(int j=0;j<array.length;j++){
             int max=0;
-            for(int i=0;i<rows;i++){
+            for(int i=0;i<array.length;i++){
                 if(array[i][j]>max){
                     max=array[i][j];
                 }
-                
             }
-            System.out.println("Row"+" "+(j+1)+"-"+" "+max);
+            System.out.println("Max From Col is "+max);
         }
+        
         
        
     }
