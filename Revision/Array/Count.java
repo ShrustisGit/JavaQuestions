@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Count {
     public static void main(String[] args) {
+        System.out.println("Coun Number");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int[] array=new int[n];
