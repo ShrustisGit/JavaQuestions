@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Duplicateinarray {
     public static void main(String[] args) {
+        System.out.println("Duplicate in array");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int[] array=new int[n];
