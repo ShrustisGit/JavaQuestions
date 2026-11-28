@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class EvenOrOdd {
     public static void main(String[] args) {
+        System.out.println("Even Odd");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int[] array=new int[n];
